@@ -1,0 +1,2 @@
+var simpleStorage = new SimpleStorage(2)
+export simpleStorage

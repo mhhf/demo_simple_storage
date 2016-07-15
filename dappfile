@@ -1,0 +1,15 @@
+version: 1.0.0
+tags: []
+layout:
+  sol_sources: contracts
+  build_dir: build
+dependencies: {}
+ignore: []
+name: 023_simple_storage
+environments:
+  live:
+    confirmationBlocks: 0
+    objects:
+      simpleStorage:
+        class: SimpleStorage
+        address: '0xbaae3a1ea7a1da39142898caa84421e002ee2923'
